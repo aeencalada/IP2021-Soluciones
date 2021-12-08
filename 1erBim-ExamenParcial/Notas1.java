@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Notas1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		float nota1, nota2, nota3, nota4, notaFinal;
+		float nota1, nota2, nota3, notaFinal;
 		String status;
 
 		System.out.println("\nNOTA FINAL DE ASIGANTURA");
@@ -14,10 +14,8 @@ public class Notas1 {
 		nota2 = sc.nextFloat();
 		System.out.print("Ingrese nota parcial 3 (sobre 10): ");
 		nota3 = sc.nextFloat();
-		System.out.print("Ingrese nota parcial 4 (sobre 10): ");
-		nota4 = sc.nextFloat();
 
-		notaFinal = ( nota1 + nota2 + nota3 + nota4 ) / 4;
+		notaFinal = ( nota1 + nota2 + nota3 ) / 4;
 
 		if (notaFinal >= 7) {
 			status = "APRUEBA";
