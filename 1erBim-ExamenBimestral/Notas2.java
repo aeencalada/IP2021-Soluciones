@@ -13,7 +13,7 @@ public class Notas2 {
        System.out.println("Ingreso de notas");
        System.out.println("=================");
        // Entrada de datos 
-       System.out.print("\n¿Cuantas notas desea ingresar:? ");
+       System.out.print("\n¿Cuántas notas desea registrar:? ");
        n = sc.nextShort();
        
        System.out.println();
