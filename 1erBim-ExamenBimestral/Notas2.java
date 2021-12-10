@@ -23,7 +23,7 @@ public class Notas2 {
        c = 1;
        //Programacion a la defensiva
        if (n > 0){
-            // Ciclo para detreminar las edades 
+            // Ciclo para ingreso y categorizacion de notas 
             while (c<=n){
                 System.out.print("Ingrese la nota del alumno "+c+" : ");
                 nota = sc.nextFloat();
