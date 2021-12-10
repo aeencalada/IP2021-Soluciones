@@ -15,6 +15,8 @@ public class Notas2 {
        // Entrada de datos 
        System.out.print("\n¿Cuantas notas desea ingresar:? ");
        n = sc.nextShort();
+       
+       System.out.println();
        //Datos de entrada iniciales
        nota = 0;
        aprob = 0;
@@ -31,10 +33,10 @@ public class Notas2 {
                     System.out.println("** REGULAR **");
                 } else if (nota < 8.5){
                     System.out.println("** BUENO **");
-                    aprob = aprob + 1;
+                    aprob = (short) (aprob + 1);
                 } else {
                     System.out.println("** MUY BUENO **");
-                    aprob = aprob + 1;
+                    aprob = (short) (aprob + 1);
                 }
                 c = (byte) (c+1);
             }   
