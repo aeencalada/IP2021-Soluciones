@@ -6,7 +6,7 @@ public class PresionArterial1 {
     public static void main(String[] args) {
         //Variables
         Scanner sc = new Scanner(System.in);
-        short n, c, grado, suma, b;
+        short n, c, grado, b;
         float resultado;
         
         //Entrada de datos        
@@ -18,7 +18,6 @@ public class PresionArterial1 {
         
         //Desarrollo del problema
         c = 1;
-        suma = 0;
         b = 0;
         
         System.out.println("\n");
@@ -42,7 +41,6 @@ public class PresionArterial1 {
                 System.out.println("** HIPERTENSO GRADO 2 **");
                 b = (short)(b + 1);
             }
-            suma = (short)(suma + grado);
             c = (short) (c + 1);
         }
         resultado = (float)((b * 100) / (float)(n));
